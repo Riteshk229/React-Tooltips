@@ -1,0 +1,24 @@
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#leftColor{
+  color: blueviolet;
+}
+
+#rightColor{
+  color: yellowgreen;
+}
+
+#topColor{
+  color: skyblue;
+}
+
+#bottomColor{
+  color: brown;
+}
