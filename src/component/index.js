@@ -1,3 +1,8 @@
 import ReactTooltip from "./ReactToolTip";
+import CustomTooltip from "./CustomTooltip";
 
-export { ReactTooltip };
+
+export {
+    ReactTooltip,
+    CustomTooltip,
+};

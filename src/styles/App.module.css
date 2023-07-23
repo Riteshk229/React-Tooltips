@@ -13,6 +13,7 @@
   min-height: 400px;
   background-color: bisque;
   place-items: center;
+  border: 1px solid black;
 }
 
 .gridItems{

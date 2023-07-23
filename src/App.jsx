@@ -1,11 +1,12 @@
 
-import { ReactTooltip } from './component'
+import { CustomTooltip, ReactTooltip } from './component'
 
 function App() {
 
   return (
     <>
-      <ReactTooltip/>
+      <ReactTooltip />
+      <CustomTooltip />
     </>
   )
 }
