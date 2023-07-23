@@ -1,3 +1,4 @@
+  /* Custom tooltip container */
   .container{
     display: flex;
     flex-direction: column;
@@ -8,6 +9,7 @@
     margin: 10px;
   }
 
+  /* buttons */
   .tipsBtn{
     border: none;
     background-color: inherit;
@@ -24,12 +26,13 @@
 
   }
 
+  /* Tooltips  */
   .tooltip{
     visibility: hidden;
     display: inline-block;
     
   }
-
+/* Tooltip text  */
   .tooltipText{
     position: absolute;
     width: 300px;
@@ -38,6 +41,7 @@
     border-radius: 6px;
   }
 
+  /* Tooltips Position */
   .leftPosition{
     top: 35%;
     left: -160%;
@@ -45,6 +49,8 @@
     color: black;
   }
 
+
+  /* Arrow positions */
   .leftPosition::after {
     content: "";
     position: absolute;
@@ -55,6 +61,7 @@
     transform: rotate(-90deg);
   }
 
+  /* Tooltips Position */
   .rightPosition{
     top: 35%;
     right: -160%;
@@ -62,6 +69,7 @@
     color: white;
   }
 
+  /* Arrow positions */
   .rightPosition::after {
     content: "";
     position: absolute;
@@ -72,7 +80,7 @@
     transform: rotate(90deg);
   }
 
-
+/* Tooltips Position */
   .topPosition{
     top: 0%;
     left: -30%;
@@ -80,6 +88,7 @@
     color: maroon;
   }
 
+  /* Arrow positions */
   .topPosition::after{
     content: "";
     position: absolute;
@@ -90,6 +99,7 @@
     transform: rotate(0deg);
   }
 
+  /* Tooltips Position */
   .bottomPosition{
     bottom: 0%;
     left: -20%;
@@ -97,6 +107,7 @@
     color: yellow;
   }
 
+  /* Arrow positions */
   .bottomPosition::after{
     content: "";
     position: absolute;
@@ -107,13 +118,14 @@
     transform: rotate(180deg);
   }
 
+  /* display on hover */
   .show:hover .tooltip{
     visibility: visible;
     opacity: 0.6;
   }
   
   
- 
+ /* media query */
   @media screen and (max-width: 800px){
     h1{
       font-size: 20px;

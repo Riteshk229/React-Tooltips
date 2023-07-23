@@ -10,16 +10,28 @@ body {
 
 #leftColor{
   color: blueviolet;
+  text-transform: capitalize;
+  text-decoration:dashed underline;
+  text-underline-offset: 4px;
 }
 
 #rightColor{
   color: yellowgreen;
+  text-transform: capitalize;
+  text-decoration:dashed underline;
+  text-underline-offset: 4px;
 }
 
 #topColor{
-  color: skyblue;
+  color: blue;
+  text-transform: capitalize;
+  text-decoration:dashed underline;
+  text-underline-offset: 4px;
 }
 
 #bottomColor{
   color: brown;
+  text-transform: capitalize;
+  text-decoration:dashed underline;
+  text-underline-offset: 4px;
 }

@@ -1,14 +1,21 @@
+// importing Reat tooltip library
 import { Tooltip } from 'react-tooltip'
 
+// importing styling using module
 import styles from '../styles/App.module.css'
 
 const ReactTooltip = () => {
+    // Directional Array
     const directions = ['left', 'top', 'bottom', 'right'];
     return (
 
+        // tooltip container
         <div className={styles.gridContainer}>
-            <h1 style={{margin:0}}>React ToolTip</h1>
-            {directions.map(direction => 
+            {/* cotainer heading */}
+            <h1 style={{ margin: 0 }}>React ToolTip</h1>
+            {/* mapping over array */}
+            {directions.map(direction =>
+                // Individual button
                 <button
                     id={direction}
                     className={styles.gridItems}
@@ -19,6 +26,7 @@ const ReactTooltip = () => {
                             className={styles.directions}>
                             {direction}
                         </span>  &nbsp; Tooltip....
+                    {/* tooltip associated with this direction */}
                     <Tooltip
                         className= {direction}
                         anchorSelect= {`#${direction}`}
@@ -33,5 +41,5 @@ const ReactTooltip = () => {
     );
 }
 
-
+// exporting ReactTooltip component
 export default ReactTooltip;

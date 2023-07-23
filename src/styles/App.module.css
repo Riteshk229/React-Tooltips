@@ -5,6 +5,8 @@
   background-color: antiquewhite;
 }
 
+
+/* React Tooltip container */
 .gridContainer{
   margin: 10px;
   display: grid;
@@ -16,6 +18,7 @@
   border: 1px solid black;
 }
 
+/* buttons */
 .gridItems{
   border: none;
   background-color: inherit;
@@ -28,6 +31,7 @@
   text-decoration: dotted;
 }
 
+/* on overing */
 .gridItems :hover{
   cursor: pointer;
 }
@@ -38,9 +42,8 @@
   text-transform: capitalize;
 }
 
-.left{
-  background-color: aqua;
-}
+
+/* media query */
 @media screen and (max-width: 800px){
   h1{
     font-size: 20px;
