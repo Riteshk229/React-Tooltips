@@ -15,7 +15,7 @@ const CustomTooltip = () => {
                 <div className={styles.tooltip}>
                     {/* tooltip text */}
                     <span className={`${styles.tooltipText} ${styles.leftPosition}`}>
-                        You are now viewing Left tooltip.!!!
+                        Viewing Custom <strong> Left</strong> tooltip.!!!
                     </span>
                 </div>
                 {/* button to show tooltip */}
@@ -33,7 +33,7 @@ const CustomTooltip = () => {
                 <div className={styles.tooltip}>
                     {/* tooltip text */}
                     <span className={`${styles.tooltipText} ${styles.topPosition}`}>
-                        You are now viewing Top tooltip.!!!
+                        Viewing Custom <strong> Top </strong> tooltip.!!!
                     </span>
                 </div>
                 {/* button to show tooltip */}
@@ -51,7 +51,7 @@ const CustomTooltip = () => {
                 <div className={styles.tooltip}>
                     {/* tooltip text */}
                     <span className={`${styles.tooltipText} ${styles.bottomPosition}`}>
-                        You are now viewing Bottom tooltip.!!!
+                    Viewing Custom <strong> Bottom </strong> tooltip.!!!
                     </span>
                 </div>
                 {/* button to show tooltip */}
@@ -69,7 +69,7 @@ const CustomTooltip = () => {
                 <div className={styles.tooltip}>
                     {/* tooltip text */}
                     <span className={`${styles.tooltipText} ${styles.rightPosition}`}>
-                        You are now viewing Right tooltip.!!!
+                        Viewing Custom  <strong> Right </strong> tooltip.!!!
                     </span>
                 </div>
                 {/* button to show tooltip */}

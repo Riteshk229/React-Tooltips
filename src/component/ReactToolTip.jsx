@@ -25,13 +25,14 @@ const ReactTooltip = () => {
                             id={`${direction}Color`}
                             className={styles.directions}>
                             {direction}
-                        </span>  &nbsp; Tooltip....
+                        </span>  &nbsp; tooltip....
                     {/* tooltip associated with this direction */}
+                    
                     <Tooltip
                         className= {direction}
                         anchorSelect= {`#${direction}`}
                         content={
-                            `You are now viewing ${direction} Tooltip.!!`
+                            `You are now viewing ${direction} tooltip.!!`
                         }
                         place={`${direction}`}
                     />
